@@ -1,0 +1,13 @@
+server:
+  port: 8097
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: admin01
+    url: jdbc:postgresql://localhost:5432/CarShop
+
+  jpa:
+    hibernate:
+      ddl-auto: update
